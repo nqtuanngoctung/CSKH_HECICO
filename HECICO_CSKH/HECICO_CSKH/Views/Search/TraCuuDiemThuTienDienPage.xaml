@@ -13,23 +13,7 @@
              x:Class="HECICO_CSKH.Views.Search.TraCuuDiemThuTienDienPage">
     <Grid>
         <StackLayout Margin="10">
-            <Label Text="Vui lòng chọn mã khách hàng" Style="{StaticResource styleLableGreen}" FontSize="14"/>
-            <!--<Frame Padding="0"
-                   CornerRadius="10"
-                   HasShadow="False"
-                   BackgroundColor="White"
-                   BorderColor="{StaticResource Primary}">
-                <sfcombobx:SfComboBox 
-                                  DataSource="{Binding ListCustomer,Mode=TwoWay}"
-                                  SelectedItem="{Binding SelectItem, Mode=TwoWay}"
-                                  HeightRequest="50"
-                                  BorderColor="Transparent"
-                                  NoResultsFoundText="Không tìm thấy mã khách hàng này"
-                                  DisplayMemberPath="TEN_KHANG"
-                                  IsEditableMode="True"
-                                  Margin="10,0,5,0"
-                                  Style="{StaticResource styleCombobox}"/>
-            </Frame>-->
+            <Label Text="Vui lòng chọn mã khách hàng" Style="{StaticResource styleLableGreen}" FontSize="14"/>             
             <Frame Padding="10,5,5,5"  
                        BackgroundColor="White"
                        CornerRadius="10"

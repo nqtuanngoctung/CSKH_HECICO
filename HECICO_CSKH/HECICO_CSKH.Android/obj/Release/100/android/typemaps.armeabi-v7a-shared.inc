@@ -139,8 +139,8 @@
 	.section	.rodata.map_aname.23,"aMS",%progbits,1
 	.type	.L.map_aname.23, %object
 .L.map_aname.23:
-	.asciz	"HECICO_CSKH.Android"
-	.size	.L.map_aname.23, 20
+	.asciz	"Mono.Android"
+	.size	.L.map_aname.23, 13
 
 	.section	.rodata.map_aname.24,"aMS",%progbits,1
 	.type	.L.map_aname.24, %object
@@ -301,74 +301,74 @@
 	.section	.rodata.map_aname.50,"aMS",%progbits,1
 	.type	.L.map_aname.50, %object
 .L.map_aname.50:
-	.asciz	"StatusBarCompatBinding"
-	.size	.L.map_aname.50, 23
+	.asciz	"Xamarin.Google.Android.DataTransport.TransportApi"
+	.size	.L.map_aname.50, 50
 
 	.section	.rodata.map_aname.51,"aMS",%progbits,1
 	.type	.L.map_aname.51, %object
 .L.map_aname.51:
-	.asciz	"Xamarin.Google.Android.DataTransport.TransportApi"
-	.size	.L.map_aname.51, 50
+	.asciz	"Xamarin.AndroidX.SavedState"
+	.size	.L.map_aname.51, 28
 
 	.section	.rodata.map_aname.52,"aMS",%progbits,1
 	.type	.L.map_aname.52, %object
 .L.map_aname.52:
-	.asciz	"Xamarin.AndroidX.SavedState"
-	.size	.L.map_aname.52, 28
+	.asciz	"Plugin.FirebasePushNotification"
+	.size	.L.map_aname.52, 32
 
 	.section	.rodata.map_aname.53,"aMS",%progbits,1
 	.type	.L.map_aname.53, %object
 .L.map_aname.53:
-	.asciz	"Plugin.FirebasePushNotification"
-	.size	.L.map_aname.53, 32
+	.asciz	"Xamarin.Google.Guava.ListenableFuture"
+	.size	.L.map_aname.53, 38
 
 	.section	.rodata.map_aname.54,"aMS",%progbits,1
 	.type	.L.map_aname.54, %object
 .L.map_aname.54:
-	.asciz	"Xamarin.Google.Guava.ListenableFuture"
-	.size	.L.map_aname.54, 38
+	.asciz	"Xamarin.AndroidX.DrawerLayout"
+	.size	.L.map_aname.54, 30
 
 	.section	.rodata.map_aname.55,"aMS",%progbits,1
 	.type	.L.map_aname.55, %object
 .L.map_aname.55:
-	.asciz	"Xamarin.AndroidX.DrawerLayout"
-	.size	.L.map_aname.55, 30
+	.asciz	"Xamarin.AndroidX.Loader"
+	.size	.L.map_aname.55, 24
 
 	.section	.rodata.map_aname.56,"aMS",%progbits,1
 	.type	.L.map_aname.56, %object
 .L.map_aname.56:
-	.asciz	"Xamarin.AndroidX.Loader"
-	.size	.L.map_aname.56, 24
+	.asciz	"FastAndroidCamera"
+	.size	.L.map_aname.56, 18
 
 	.section	.rodata.map_aname.57,"aMS",%progbits,1
 	.type	.L.map_aname.57, %object
 .L.map_aname.57:
-	.asciz	"FastAndroidCamera"
-	.size	.L.map_aname.57, 18
+	.asciz	"HECICO_CSKH.Android"
+	.size	.L.map_aname.57, 20
 
 	.section	.rodata.map_aname.58,"aMS",%progbits,1
 	.type	.L.map_aname.58, %object
 .L.map_aname.58:
-	.asciz	"Mono.Android"
-	.size	.L.map_aname.58, 13
+	.asciz	"AndHUD"
+	.size	.L.map_aname.58, 7
 
 	.section	.rodata.map_aname.59,"aMS",%progbits,1
 	.type	.L.map_aname.59, %object
 .L.map_aname.59:
-	.asciz	"AndHUD"
-	.size	.L.map_aname.59, 7
+	.asciz	"Com.ViewPagerIndicator"
+	.size	.L.map_aname.59, 23
 
 	.section	.rodata.map_aname.60,"aMS",%progbits,1
 	.type	.L.map_aname.60, %object
 .L.map_aname.60:
-	.asciz	"Com.ViewPagerIndicator"
-	.size	.L.map_aname.60, 23
+	.asciz	"Acr.Core"
+	.size	.L.map_aname.60, 9
 
 	.section	.rodata.map_aname.61,"aMS",%progbits,1
 	.type	.L.map_aname.61, %object
 .L.map_aname.61:
-	.asciz	"Acr.Core"
-	.size	.L.map_aname.61, 9
+	.asciz	"StatusBarCompatBinding"
+	.size	.L.map_aname.61, 23
 
 	.section	.rodata.map_aname.62,"aMS",%progbits,1
 	.type	.L.map_aname.62, %object

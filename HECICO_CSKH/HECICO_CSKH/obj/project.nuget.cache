@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XwRXHUIYguq8JtCCEP8/N8oej8vnUFWLDgsaV1FkkbwRzIcUFrXpwksScU9V9yJnLviNDxI+MsYquyA0/7vXYw==",
+  "dgSpecHash": "7lHqjJLM/LKEMur7pmLPLJ50yJqO+14kvwhp0+E+LCElttrxAs9GIblFSOIMcIBNWen1YavXgM9ihViLtFL8yA==",
   "success": true,
-  "projectFilePath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
+  "projectFilePath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\acr.core\\2.2.0\\acr.core.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\acr.deviceinfo\\6.5.0\\acr.deviceinfo.6.5.0.nupkg.sha512",

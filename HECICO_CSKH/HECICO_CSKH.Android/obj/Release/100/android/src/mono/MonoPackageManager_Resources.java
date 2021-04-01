@@ -160,4 +160,5 @@ public class MonoPackageManager_Resources {
 	};
 	public static String[] Dependencies = new String[]{
 	};
+	public static String ApiPackageName = null;
 }

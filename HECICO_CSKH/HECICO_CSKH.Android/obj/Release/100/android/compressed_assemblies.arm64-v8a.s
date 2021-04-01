@@ -107,7 +107,7 @@
 
 	/* 11: Java.Interop.dll */
 	/* uncompressed_file_size */
-	.word	164864
+	.word	164352
 	/* loaded */
 	.byte	0
 	/* data */
@@ -125,7 +125,7 @@
 
 	/* 13: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.word	2370560
+	.word	2304000
 	/* loaded */
 	.byte	0
 	/* data */
@@ -1223,7 +1223,7 @@
 
 	/* 135: mscorlib.dll */
 	/* uncompressed_file_size */
-	.word	2217984
+	.word	2216960
 	/* loaded */
 	.byte	0
 	/* data */

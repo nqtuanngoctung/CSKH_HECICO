@@ -32,21 +32,6 @@
                     <TapGestureRecognizer Command="{Binding SelectKhachHangCommand}" />
                 </Frame.GestureRecognizers>
             </Frame>
-            <!--<Frame Padding="0"
-                   CornerRadius="10"
-                    BackgroundColor="White"
-                   BorderColor="{StaticResource Primary}">
-                <sfcombobx:SfComboBox 
-                                  DataSource="{Binding ListCustomer,Mode=TwoWay}"
-                                  SelectedItem="{Binding SelectItem, Mode=TwoWay}"
-                                  HeightRequest="50"
-                                  BorderColor="Transparent"
-                                  NoResultsFoundText="Không tìm thấy mã khách hàng này"
-                                  DisplayMemberPath="TEN_KHANG"
-                                  IsEditableMode="True"
-                                  Margin="10,0,5,0"
-                                  Style="{StaticResource styleCombobox}"/>
-            </Frame>-->
 
             <sfinputtext:SfTextInputLayout Hint="Chọn tháng" 
                                                IsHintAlwaysFloated="True"
@@ -161,7 +146,7 @@
                         </Label.FormattedText>
                     </Label>                     
                     <StackLayout Spacing="0">
-                        <Grid ColumnDefinitions="2.5*,2.5*,2.5*,2.5*" RowDefinitions="auto,auto" 
+                        <Grid ColumnDefinitions="2.5*,2.5*,2.5*,2.5*" RowDefinitions="*,*" 
                                           HorizontalOptions="FillAndExpand" RowSpacing="0">
                             <BoxView Grid.ColumnSpan="4" Grid.Row="0" HeightRequest="1" HorizontalOptions="FillAndExpand"
                                                  VerticalOptions="Start"
