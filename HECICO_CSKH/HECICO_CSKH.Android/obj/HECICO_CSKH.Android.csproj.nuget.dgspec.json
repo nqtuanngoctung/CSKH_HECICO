@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj": {}
+    "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj": {}
   },
   "projects": {
-    "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj": {
+    "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
+        "projectUniqueName": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
         "projectName": "HECICO_CSKH.Android",
-        "projectPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
+        "projectPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\obj\\",
+        "outputPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid10.0": {
             "projectReferences": {
-              "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
-                "projectPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj"
+              "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
+                "projectPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj"
               }
             }
           }
@@ -226,17 +226,17 @@
         }
       }
     },
-    "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
+    "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
+        "projectUniqueName": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
         "projectName": "HECICO_CSKH",
-        "projectPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
+        "projectPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\obj\\",
+        "outputPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,6 +252,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -263,6 +264,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Acr.DeviceInfo": {
               "target": "Package",
@@ -357,7 +359,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

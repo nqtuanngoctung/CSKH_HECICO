@@ -10,7 +10,7 @@
              BackgroundColor="White"
              x:Class="HECICO_CSKH.Views.LoginPage"
              >
-    <Grid RowDefinitions="auto,auto,*" >
+    <Grid RowDefinitions="auto,auto,*" VerticalOptions="CenterAndExpand">
         <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="200"
                      Grid.Row="0">
             <Image Source="logo.png" Aspect="Fill" HorizontalOptions="Center"  VerticalOptions="Center"
@@ -22,7 +22,7 @@
                    HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
         </StackLayout>
         <StackLayout HorizontalOptions="FillAndExpand" Grid.Row="1">
-            <StackLayout Margin="{OnPlatform Android='0,15,0,0' , iOS= '0,30,0,0'} " BackgroundColor="Transparent">
+            <StackLayout Margin="{OnPlatform Android='0,15,0,0' , iOS= '0,30,0,0'} " Spacing="20" BackgroundColor="Transparent">
                 <sfinputtext:SfTextInputLayout  Padding="20,0,20,0"                                            
                                                LeadingViewPosition="Inside"
                                                HeightRequest="50"
@@ -34,7 +34,7 @@
                     <Entry x:Name="txtUserID" HorizontalOptions="FillAndExpand" Style="{StaticResource styleEntryGreen}"  
                            ClearButtonVisibility="WhileEditing" 
                            Text="{Binding UserName, Mode=TwoWay}"
-                           FontSize="20"       
+                           FontSize="25"       
                            Keyboard="Numeric"
                            Placeholder="Nhập tên người dùng"
                            VerticalTextAlignment="Center"                               
@@ -59,9 +59,9 @@
                                                ContainerType="Outlined">
                     <Entry HorizontalOptions="FillAndExpand" Style="{StaticResource styleEntryGreen}"  
                            ClearButtonVisibility="WhileEditing"                           
-                           HorizontalTextAlignment="Center"                           
+                           HorizontalTextAlignment="Start"                           
                            IsPassword="True"
-                           FontSize="20"       
+                           FontSize="25"       
                            Placeholder="Nhập mật khẩu"
                            VerticalTextAlignment="Center"
                            Text="{Binding Password, Mode=TwoWay}"
@@ -87,7 +87,7 @@
                     </sfbutton:SfButton>
                    
                 </StackLayout>
-                <Grid ColumnDefinitions="*,auto,*" HorizontalOptions="FillAndExpand" Margin="0,60,0,0">
+                <!--<Grid ColumnDefinitions="*,auto,*" HorizontalOptions="FillAndExpand" Margin="0,60,0,0">
                     <BoxView BackgroundColor="Green" HorizontalOptions="Fill"  VerticalOptions="CenterAndExpand"
                              HeightRequest ="1" Grid.Column="0"/>
                     <BoxView BackgroundColor="Green" HorizontalOptions="Fill"  VerticalOptions="CenterAndExpand"
@@ -107,7 +107,7 @@
                                        BackgroundColor="Red">
                     </sfbutton:SfButton>
 
-                </StackLayout>
+                </StackLayout>-->
             </StackLayout >
         </StackLayout>
     </Grid>

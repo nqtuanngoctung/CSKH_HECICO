@@ -12,7 +12,7 @@
                               Padding="0"
                              VerticalOptions="FillAndExpand">
                 <Image Source="tracuu.png" HeightRequest="150"  Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
-                      AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                      />
                 <Label Text="TRA CỨU" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
                        Style="{StaticResource styleLableWhite}"

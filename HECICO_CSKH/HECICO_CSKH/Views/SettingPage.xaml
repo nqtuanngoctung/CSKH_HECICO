@@ -9,14 +9,14 @@
         <Grid RowDefinitions="auto,auto,*">
             <AbsoluteLayout  HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Image Source="caidat.png" HeightRequest="150"  Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
-                      AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                      />
 
                 <Label Text="CÀI ĐẶT" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
                        Style="{StaticResource styleLableWhite}"
-                       AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.65,0.25,200,70', iOS='0.65,0.25,200,70'}"/>
+                       AbsoluteLayout.LayoutBounds="{OnPlatform Android = '0.65,0.25,200,70', iOS='0.65,0.25,200,70'}"/>
             </AbsoluteLayout>
-            <StackLayout Grid.Row="1" Margin="{OnPlatform Android='10' , iOS='10,10,0,0'}">
+            <StackLayout Grid.Row="1" Margin="{OnPlatform Android = '10' , iOS='10,10,0,0'}">
                 <StackLayout Orientation="Horizontal">
                     <Image Source="password.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30"/>
                     <Label Text="Đổi mật khẩu" Style="{StaticResource styleLableGreen}" FontSize="20"/>

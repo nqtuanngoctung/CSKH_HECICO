@@ -8098,20 +8098,20 @@
   },
   "packageFolders": {
     "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
+      "projectUniqueName": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
       "projectName": "HECICO_CSKH.Android",
-      "projectPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
+      "projectPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\obj\\",
+      "outputPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8128,8 +8128,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
-              "projectPath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj"
+            "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj": {
+              "projectPath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH\\HECICO_CSKH.csproj"
             }
           }
         }

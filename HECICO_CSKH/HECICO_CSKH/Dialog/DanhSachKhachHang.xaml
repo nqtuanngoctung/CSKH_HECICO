@@ -4,7 +4,7 @@
              x:Class="HECICO_CSKH.Dialog.DanhSachKhachHang">
     <ContentPage.Content>
         <StackLayout Margin="20,30,20,0">
-            <Label Text="CHỌN THÔNG KHÁCH  HÀNG" HorizontalOptions="Center" Style="{StaticResource styleLableGreen}" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="CHỌN THÔNG TIN KHÁCH  HÀNG" HorizontalOptions="Center" Style="{StaticResource styleLableGreen}" FontSize="20" FontAttributes="Bold"/>
             <ListView ItemsSource="{Binding ListData,Mode=TwoWay}"
                   HasUnevenRows="True"
                   SeparatorVisibility="None"

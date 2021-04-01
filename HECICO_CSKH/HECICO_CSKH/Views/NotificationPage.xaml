@@ -7,8 +7,8 @@
     <Grid>
         <Grid RowDefinitions="auto,auto,*">
             <AbsoluteLayout  HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Image Source="thongbao.png"   Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
-                      AbsoluteLayout.LayoutFlags="PositionProportional" HeightRequest="150"/>
+                <Image Source="thongbao.png"   Aspect="Fill"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
+                     HeightRequest="150"/>
               
                 <Label Text="THÔNG BÁO" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
@@ -98,4 +98,4 @@
             </StackLayout>
         </Grid>
     </Grid>
-</ContentPage>
+</ContentPage> 
