@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f/tU6k3BYeM6EP6fkeLuaK91RsW/lxzoqbwgytDj/kOjXaULHpYFRS2jWJYYTingIKj4WG894HvRWJ9bCChMIg==",
+  "dgSpecHash": "twd3aYz8b+Rg1+nDwqzETwQ2YtEEeaZM1aV5AxQ5Fwjs9PSkyIxBmPMQcQP2EGGvX+WTv6YOcOPMg+e7aPB6Og==",
   "success": true,
-  "projectFilePath": "D:\\SOURCE CODE\\GIT_HUB_EMEC\\CSKH_HECICO V2\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.iOS\\HECICO_CSKH.iOS.csproj",
+  "projectFilePath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.iOS\\HECICO_CSKH.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\acr.core\\2.2.0\\acr.core.2.2.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\acr.deviceinfo\\6.5.0\\acr.deviceinfo.6.5.0.nupkg.sha512",
