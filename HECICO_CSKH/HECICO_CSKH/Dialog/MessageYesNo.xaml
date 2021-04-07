@@ -24,8 +24,9 @@
             HasBackgroundAnimation="True"/>
     </pages:PopupPage.Animation>
     <Frame CornerRadius="15"
-           Margin="20"
+           Margin="{OnIdiom Phone='20', Tablet='40'}"   
            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" Spacing="20">
 
@@ -49,16 +50,14 @@
                     </Grid.ColumnDefinitions>
                     <sfbutton:SfButton  Grid.Column="0" 
                                         x:Name="btnOK" 
-                                        Text="OK" FontSize="20"   
-                                        ImageSource="ok.png" 
+                                        Text="OK" FontSize="20"                                         
                                         Clicked="btnOK_Clicked" 
                                         HorizontalOptions="FillAndExpand" 
                                         Style="{StaticResource sfbutton}"
                                         HeightRequest="50">
                     </sfbutton:SfButton>
                     <sfbutton:SfButton Grid.Column="1" 
-                            x:Name="btnCancel" Text="Cancel" 
-                            ImageSource="ic_delete.png" 
+                            x:Name="btnCancel" Text="Cancel"                             
                             Clicked="btnCancel_Clicked" 
                             HorizontalOptions="FillAndExpand"                             
                             Style="{StaticResource sfbuttonCancel}"

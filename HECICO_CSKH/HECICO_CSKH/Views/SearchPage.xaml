@@ -6,12 +6,13 @@
              x:Class="HECICO_CSKH.Views.SearchPage">
     <Grid>
         <StackLayout Spacing="0"></StackLayout>
-            <Grid RowDefinitions="auto,auto,auto" RowSpacing="0">
+            <Grid RowDefinitions="auto,auto,*" RowSpacing="0">
            
             <AbsoluteLayout  HeightRequest="150" HorizontalOptions="FillAndExpand" 
                               Padding="0"
                              VerticalOptions="FillAndExpand">
-                <Image Source="tracuu.png" HeightRequest="150"  Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
+                <Image Source="tracuu"  HeightRequest= "{OnIdiom Tablet=300, Phone=150}"  Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
+                        AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1" 
                       />
                 <Label Text="TRA CỨU" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
@@ -26,19 +27,19 @@
                     <Grid RowDefinitions="auto,auto,auto" ColumnDefinitions="5*,5*" RowSpacing="0">
                        
                         <StackLayout Padding="5" Grid.Row="0" Grid.Column="0" Orientation="Vertical" >
-                            <Image Source="tracuughiso.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="tracuughiso" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Tra cứu lịch sử ghi số" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand" Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}" />
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TraCuuGhiChiSoCommand}" />
                             </StackLayout.GestureRecognizers>
                         </StackLayout>
                         <StackLayout Padding="5" Grid.Row="0" Grid.Column="1" Orientation="Vertical" >
-                            <Image Source="vitri.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="vitri" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Điểm thu tiền điện" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"   Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}"  />
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TraCuuDiemThuTienDienCommand}" />
                             </StackLayout.GestureRecognizers>
@@ -48,16 +49,16 @@
                              BackgroundColor="{StaticResource Primary}"/>
 
                         <StackLayout Padding="5" Grid.Row="1" Grid.Column="0" Orientation="Vertical" >
-                            <Image Source="tracuucapdien.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="tracuucapdien" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Tra cứu lịch tạm ngừng cung cấp điện" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand" Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}"  />
                         </StackLayout>
                         <StackLayout Padding="5" Grid.Row="1" Grid.Column="1" Orientation="Vertical" >
-                            <Image Source="tracuudiennang.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="tracuudiennang" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Tra cứu điện năng tiêu thụ" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"   Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}"  />
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TraCuuDienNangTieuThuCommand}" />
                             </StackLayout.GestureRecognizers>
@@ -67,19 +68,19 @@
                              BackgroundColor="{StaticResource Primary}"/>
 
                         <StackLayout Padding="5" Grid.Row="2" Grid.Column="0" Orientation="Vertical" >
-                            <Image Source="thanhtoantiendien.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="thanhtoantiendien" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Thông tin thanh toán tiền điện" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand" Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}"  />
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TraCuuThongTinThanhToanCommand}" />
                             </StackLayout.GestureRecognizers>
                         </StackLayout>
                         <StackLayout Padding="5" Grid.Row="2" Grid.Column="1" Orientation="Vertical" >
-                            <Image Source="tracuuhoadon.png" Aspect="AspectFit"   HeightRequest="60" WidthRequest="60" HorizontalOptions="Center"/>
+                            <Image Source="tracuuhoadon" Aspect="AspectFit"   HeightRequest="{OnIdiom Phone=60 ,Tablet=90}"  WidthRequest="{OnIdiom Phone=60 ,Tablet=90}" HorizontalOptions="Center"/>
                             <Label Text="Tra cứu hóa đơn điện tử" Style="{StaticResource styleLableGreen}"  HorizontalTextAlignment="Center"
                                HorizontalOptions="CenterAndExpand"   Padding="10,10,10,10"
-                               FontSize="16" />
+                               FontSize="{OnIdiom Phone=16 ,Tablet=28}"  />
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding TraCuuHoaDonDienTuCommand}" />
                             </StackLayout.GestureRecognizers>
@@ -93,12 +94,12 @@
                              HorizontalOptions="Start"
                              BackgroundColor="{StaticResource Primary}"/>
                     </Grid>
-                    <AbsoluteLayout HeightRequest="100" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10">
-                        <Image Source="webcskh.png" Aspect="AspectFit" HeightRequest="100" HorizontalOptions="FillAndExpand"
+                    <AbsoluteLayout HeightRequest= "{OnIdiom Tablet=200, Phone=100}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="10">
+                        <Image Source="webcskh" Aspect="AspectFill" HeightRequest= "{OnIdiom Tablet=200, Phone=100}" HorizontalOptions="FillAndExpand"
                                AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1" />
-                        <Label Text="Website" FontSize="25" FontAttributes="Bold" Style="{StaticResource styleLableWhite}"
+                        <Label Text="Website" FontSize="{OnIdiom Phone=25 ,Tablet=35}"  FontAttributes="Bold" Style="{StaticResource styleLableWhite}"
                                AbsoluteLayout.LayoutBounds="0.09,0.5,100,30" AbsoluteLayout.LayoutFlags="PositionProportional"/>
-                        <Label Text="Chăm sóc khách hàng" FontSize="20"  Style="{StaticResource styleLableWhite}"
+                        <Label Text="Chăm sóc khách hàng" FontSize="{OnIdiom Phone=20 ,Tablet=30}"   Style="{StaticResource styleLableWhite}"
                                AbsoluteLayout.LayoutBounds="0.15,0.9,200,30" AbsoluteLayout.LayoutFlags="PositionProportional"/>
                         <AbsoluteLayout.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding OpenWebCommand}">

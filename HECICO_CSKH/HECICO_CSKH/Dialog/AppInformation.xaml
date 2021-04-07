@@ -22,10 +22,11 @@
     <Frame CornerRadius="15"
            Margin="40,0,40,0"                 
            HorizontalOptions="FillAndExpand"
+           BackgroundColor="White"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" Spacing="10">
 
-            <Image HorizontalOptions="CenterAndExpand" Source="logo.png" Aspect="AspectFit" WidthRequest="100" HeightRequest="100" />
+            <Image HorizontalOptions="CenterAndExpand" Source="logo" Aspect="AspectFit" WidthRequest="100" HeightRequest="100" />
             <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <Label Text="Ứng dụng:" Style="{StaticResource styleLableGreen}" FontSize="17"></Label>
                 <Label Text="HECICO CSKH" Style="{StaticResource styleLable}"  FontSize="17"></Label>

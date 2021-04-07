@@ -6,6 +6,7 @@
              xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"   
                   xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
                  CloseWhenBackgroundIsClicked="True"   
+                
              x:Class="HECICO_CSKH.Dialog.Barcode">
     <pages:PopupPage.Animation >
         <animations:ScaleAnimation 
@@ -21,7 +22,8 @@
     </pages:PopupPage.Animation>
     
     <Frame CornerRadius="15"
-           Margin="20,0,20,0"                 
+           Margin="20,0,20,0"           
+            BackgroundColor="White"
            HorizontalOptions="FillAndExpand"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" >            

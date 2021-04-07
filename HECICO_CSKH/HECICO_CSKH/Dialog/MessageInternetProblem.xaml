@@ -19,8 +19,9 @@
             HasBackgroundAnimation="True"/>
     </pages:PopupPage.Animation>
     <Frame CornerRadius="15"
-           Margin="20,0,20,0"             
+           Margin="{OnIdiom Phone='20,0,20,0', Tablet='40,0,40,0'}"             
            HorizontalOptions="FillAndExpand"
+            BackgroundColor="White"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" Spacing="20">
 

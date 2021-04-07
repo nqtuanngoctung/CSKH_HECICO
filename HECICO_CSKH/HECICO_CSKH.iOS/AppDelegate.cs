@@ -47,7 +47,7 @@ namespace HECICO_CSKH.iOS
             LoadApplication(new App());
             //FirebasePushNotificationManager.Initialize(options, true);
             Firebase.Core.App.Configure();
-
+            ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             RequestPushPermissionsAsync();
             _launchoptions = options;
             UIApplication.SharedApplication.RegisterForRemoteNotifications();

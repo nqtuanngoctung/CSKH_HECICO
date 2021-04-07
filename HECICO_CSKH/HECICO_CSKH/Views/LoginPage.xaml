@@ -13,7 +13,7 @@
     <Grid RowDefinitions="auto,auto,*" VerticalOptions="CenterAndExpand">
         <StackLayout HorizontalOptions="FillAndExpand" HeightRequest="200"
                      Grid.Row="0">
-            <Image Source="logo.png" Aspect="Fill" HorizontalOptions="Center"  VerticalOptions="Center"
+            <Image Source="logo" Aspect="Fill" HorizontalOptions="Center"  VerticalOptions="Center"
                    HeightRequest="140" WidthRequest="140"
                    Margin="1,30,0,0"
                    ></Image>    
@@ -22,7 +22,7 @@
                    HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
         </StackLayout>
         <StackLayout HorizontalOptions="FillAndExpand" Grid.Row="1">
-            <StackLayout Margin="{OnPlatform Android='0,15,0,0' , iOS= '0,30,0,0'} " Spacing="20" BackgroundColor="Transparent">
+            <StackLayout Margin="{OnPlatform Android='0,15,0,0' , iOS= '0,30,0,0' } " Spacing="20" BackgroundColor="Transparent">
                 <sfinputtext:SfTextInputLayout  Padding="20,0,20,0"                                            
                                                LeadingViewPosition="Inside"
                                                HeightRequest="50"

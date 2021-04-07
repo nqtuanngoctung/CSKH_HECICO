@@ -5,7 +5,9 @@
              xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:sfDatagrid="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
               xmlns:sfcombox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
-             xmlns:themes = "clr-namespace:HECICO_CSKH.Themes;assembly=HECICO_CSKH" xmlns:syncTheme="clr-namespace:Syncfusion.XForms.Themes;assembly=Syncfusion.Core.XForms"
+             xmlns:themes = "clr-namespace:HECICO_CSKH.Themes;assembly=HECICO_CSKH" 
+             xmlns:syncTheme="clr-namespace:Syncfusion.XForms.Themes;assembly=Syncfusion.Core.XForms"
+             xmlns:styles="clr-namespace:HECICO_CSKH.Views.ErrorAndEmpty"
              x:Class="HECICO_CSKH.App">
     <!--
         Define global resources and styles here, that apply to all pages in your app.

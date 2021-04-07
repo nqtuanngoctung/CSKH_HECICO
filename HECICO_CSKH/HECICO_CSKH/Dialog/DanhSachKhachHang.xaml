@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="White"
              x:Class="HECICO_CSKH.Dialog.DanhSachKhachHang">
     <ContentPage.Content>
         <StackLayout Margin="20,30,20,0">
-            <Label Text="CHỌN THÔNG TIN KHÁCH  HÀNG" HorizontalOptions="Center" Style="{StaticResource styleLableGreen}" FontSize="20" FontAttributes="Bold"/>
+            <Label Text="CHỌN THÔNG TIN KHÁCH  HÀNG" HorizontalOptions="Center" HorizontalTextAlignment="Center" Style="{StaticResource styleLableGreen}" FontSize="20" FontAttributes="Bold"/>
             <ListView ItemsSource="{Binding ListData,Mode=TwoWay}"
                   HasUnevenRows="True"
                   SeparatorVisibility="None"

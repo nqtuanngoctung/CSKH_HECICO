@@ -10,6 +10,7 @@
     <None Remove="Images\home.svg" />
     <None Remove="Images\NoInternet.svg" />
     <None Remove="Images\SomethingWentWrong.svg" />
+    <None Remove="Images\startuppage.svg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +18,7 @@
     <EmbeddedResource Include="Images\home.svg" />
     <EmbeddedResource Include="Images\NoInternet.svg" />
     <EmbeddedResource Include="Images\SomethingWentWrong.svg" />
+    <EmbeddedResource Include="Images\startuppage.svg" />
   </ItemGroup>
 
   <ItemGroup>

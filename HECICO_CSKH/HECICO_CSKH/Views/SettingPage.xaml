@@ -3,12 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Shell.NavBarIsVisible="False"
              xmlns:helper="clr-namespace:HECICO_CSKH.Helper"
+             xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
              BackgroundColor="White"
              x:Class="HECICO_CSKH.Views.SettingPage">
     <Grid>
         <Grid RowDefinitions="auto,auto,*">
             <AbsoluteLayout  HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                <Image Source="caidat.png" HeightRequest="150"  Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
+                <Image Source="caidat" HeightRequest= "{OnIdiom Tablet=300, Phone=150}"
+                       Aspect="AspectFill"  AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
                       />
 
                 <Label Text="CÀI ĐẶT" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
@@ -18,7 +20,7 @@
             </AbsoluteLayout>
             <StackLayout Grid.Row="1" Margin="{OnPlatform Android = '10' , iOS='10,10,0,0'}">
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="password.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30"/>
+                    <Image Source="password" Aspect="AspectFit" HeightRequest="30" WidthRequest="30"/>
                     <Label Text="Đổi mật khẩu" Style="{StaticResource styleLableGreen}" FontSize="20"/>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding ChangePasswordCommand}">

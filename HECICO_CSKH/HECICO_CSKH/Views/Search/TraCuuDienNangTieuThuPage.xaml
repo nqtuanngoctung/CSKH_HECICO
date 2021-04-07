@@ -19,9 +19,9 @@
                        BackgroundColor="White"
                        CornerRadius="10" 
                    BorderColor="{StaticResource Primary}"
-                   HeightRequest="50">
+                   HeightRequest="60">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
-                    <Label Text="{Binding TEN_KHANG}" FontSize="18" HorizontalOptions="FillAndExpand" x:Name="txtTram" Style="{StaticResource styleLableGreen }"/>
+                    <Label Text="{Binding TEN_KHANG}" LineBreakMode="TailTruncation" MaxLines="2"  FontSize="18" HorizontalOptions="FillAndExpand" x:Name="txtTram" Style="{StaticResource styleLableGreen }"/>
                     <Image HorizontalOptions="EndAndExpand">
                         <Image.Source>
                             <FontImageSource FontFamily="UserIcons" Glyph="{Binding Source={x:Static helper:FontIconClass.TextSearch}}" Color="Green" Size="20"/>
