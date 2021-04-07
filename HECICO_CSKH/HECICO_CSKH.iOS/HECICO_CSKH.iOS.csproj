@@ -331,4 +331,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\thanhtoan.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thongbao%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thongbao%402x.png" />
+  </ItemGroup>
 </Project>

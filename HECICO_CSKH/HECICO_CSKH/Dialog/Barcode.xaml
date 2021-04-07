@@ -24,7 +24,7 @@
     <Frame CornerRadius="15"
            Margin="20,0,20,0"           
             BackgroundColor="White"
-           HorizontalOptions="FillAndExpand"
+           HorizontalOptions="CenterAndExpand"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" >            
             <zxing:ZXingBarcodeImageView  x:Name="txtBarcode" WidthRequest="300" HeightRequest="300" BarcodeFormat="QR_CODE" >

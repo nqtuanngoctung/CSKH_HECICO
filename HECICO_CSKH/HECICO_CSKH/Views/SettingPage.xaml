@@ -8,12 +8,12 @@
              x:Class="HECICO_CSKH.Views.SettingPage">
     <Grid>
         <Grid RowDefinitions="auto,auto,*">
-            <AbsoluteLayout  HeightRequest="150" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <AbsoluteLayout  HeightRequest= "{OnIdiom Tablet=300, Phone=150}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Image Source="caidat" HeightRequest= "{OnIdiom Tablet=300, Phone=150}"
                        Aspect="AspectFill"  AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
                       />
 
-                <Label Text="CÀI ĐẶT" FontSize="25" AbsoluteLayout.LayoutFlags="PositionProportional"
+                <Label Text="CÀI ĐẶT" FontSize="{OnIdiom Tablet=35, Phone=25}" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
                        Style="{StaticResource styleLableWhite}"
                        AbsoluteLayout.LayoutBounds="{OnPlatform Android = '0.65,0.25,200,70', iOS='0.65,0.25,200,70'}"/>
