@@ -21,7 +21,7 @@
     </pages:PopupPage.Animation>
     <Frame CornerRadius="15"
            Margin="40,0,40,0"                 
-           HorizontalOptions="FillAndExpand"
+            HorizontalOptions="CenterAndExpand"              
            BackgroundColor="White"
            VerticalOptions="Center">
         <StackLayout HorizontalOptions="FillAndExpand" Spacing="10">

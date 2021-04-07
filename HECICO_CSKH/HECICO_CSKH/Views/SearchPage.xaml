@@ -17,10 +17,10 @@
                 <Label Text="TRA CỨU" FontSize="{OnIdiom Tablet=35, Phone=25}" AbsoluteLayout.LayoutFlags="PositionProportional"
                        FontAttributes="Bold"
                        Style="{StaticResource styleLableWhite}"
-                       AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.65,0.25,200,70', iOS='0.65,0.25,200,70'}"/>
+                      AbsoluteLayout.LayoutBounds="{OnIdiom Phone='0.5,0.25', Tablet='0.5,0.25' } "/>
                 <Label Text="Tìm kiếm thông tin" FontSize="{OnIdiom Tablet=26, Phone=16}" AbsoluteLayout.LayoutFlags="PositionProportional"
                        Style="{StaticResource styleLableWhite}"
-                       AbsoluteLayout.LayoutBounds="{OnPlatform iOS='0.65,0.65,200,70', Android='0.65,0.65,200,70'}"/>
+                        AbsoluteLayout.LayoutBounds="{OnPlatform iOS='0.5,0.6', Android='0.5,0.6'}"/>
             </AbsoluteLayout>
 
             

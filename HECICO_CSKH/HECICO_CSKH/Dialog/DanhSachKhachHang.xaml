@@ -11,6 +11,7 @@
                   SeparatorVisibility="None"
                   ItemSelected="ListView_ItemSelected"
                   x:Name="lstView"
+                      BackgroundColor="White"
                   >
                 <ListView.ItemTemplate>
                     <DataTemplate>
