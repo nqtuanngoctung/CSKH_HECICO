@@ -12,7 +12,7 @@ namespace HECICO_CSKH.Models
         string _tenKhachhang;
         public string TEN_KHANG { get => _tenKhachhang; set {
                 _tenKhachhang = value;
-                _tenKhachhang = MA_KHANG + " - " + _tenKhachhang;
+                _tenKhachhang =_tenKhachhang;
             } }
         public string DCHI_KHANG { get; set; } 
     }

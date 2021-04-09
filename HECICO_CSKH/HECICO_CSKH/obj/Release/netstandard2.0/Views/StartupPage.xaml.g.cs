@@ -17,8 +17,12 @@ namespace HECICO_CSKH.Views {
     public partial class StartupPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::HECICO_CSKH.Controls.SVGImage ErrorImage;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(StartupPage));
+            ErrorImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::HECICO_CSKH.Controls.SVGImage>(this, "ErrorImage");
         }
     }
 }

@@ -46,14 +46,17 @@ namespace HECICO_CSKH.ViewModels.Search
             DateTime date = DateTime.Now.Date;
             _fromdate = new DateTime(date.Year, date.Month, 1).Date;          
             ListTraCuu = new ObservableCollection<TraCuuHoaDonDienTuModel>();
-            ListCustomer = new ObservableCollection<CustomerByTel>();
+            ListCustomer = new ObservableCollection<CustomerByTel>();           
             SearchCommand = new Command(OnSearchClicked);
             LoadCommand = new Command(OnLoadExcute);
+            SelectThangNamCommand = new Command(OnSelectThangNamClicked);
             MessagingCenter.Subscribe<DanhSachKhachHang, CustomerByTel>(this, "chonkhachhang", (sender, item) => {
                 TEN_KHANG = item.TEN_KHANG;
                 SelectItem = item;
             });
         }
+
+       
         #endregion
 
         #region "Method"
@@ -95,7 +98,10 @@ namespace HECICO_CSKH.ViewModels.Search
                 HideLoading();
             }
         }
-
+        private async void OnSelectThangNamClicked(object obj)
+        {
+          FromDate  =   await new ChonThangNam(FromDate).Show();            
+        }
         async Task TimKiem()
         {
             try
@@ -127,7 +133,7 @@ namespace HECICO_CSKH.ViewModels.Search
                             string result = _json.Substring(from, to - from + 1);
                             ListTraCuu = JsonConvert.DeserializeObject<ObservableCollection<TraCuuHoaDonDienTuModel>>(result);
                             if (ListTraCuu.Count > 0)
-                            {
+                            {                                
                                 Item = ListTraCuu[0];
                             }
 
@@ -162,6 +168,8 @@ namespace HECICO_CSKH.ViewModels.Search
         #region "Command"
         public Command SearchCommand { get; }
         public Command LoadCommand { get; }
+
+        public Command SelectThangNamCommand { get; } 
         #endregion
     }
 }

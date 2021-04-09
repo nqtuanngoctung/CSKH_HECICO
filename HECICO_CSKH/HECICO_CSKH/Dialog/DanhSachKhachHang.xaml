@@ -17,7 +17,15 @@
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Margin="10">
-                                <Label Text="{Binding TEN_KHANG}" Style="{StaticResource styleLableGreen}" FontSize="17"/>
+                                <Label  Style="{StaticResource styleLableGreen}" FontSize="17">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding MA_KHANG}" />
+                                            <Span Text=" - " />
+                                            <Span Text="{Binding TEN_KHANG}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
                                 <BoxView BackgroundColor="{StaticResource Primary}" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
                             </StackLayout>
                         </ViewCell>

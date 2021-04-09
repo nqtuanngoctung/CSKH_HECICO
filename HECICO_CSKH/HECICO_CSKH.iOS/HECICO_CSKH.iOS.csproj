@@ -337,4 +337,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\thongbao%402x.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\callcskh.png" />
+  </ItemGroup>
 </Project>

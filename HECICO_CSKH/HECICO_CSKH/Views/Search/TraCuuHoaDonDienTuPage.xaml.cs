@@ -1,4 +1,5 @@
-﻿using HECICO_CSKH.ViewModels.Search;
+﻿using HECICO_CSKH.Dialog;
+using HECICO_CSKH.ViewModels.Search;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace HECICO_CSKH.Views.Search
             InitializeComponent();
             viewModel = new TraCuuHoaDonDienTuViewModel();
             viewModel.Navigation = Navigation;
-            BindingContext = viewModel;
+            BindingContext = viewModel;            
         }
         protected override void OnAppearing()
         {
@@ -28,6 +29,11 @@ namespace HECICO_CSKH.Views.Search
             {
                 viewModel.LoadCommand.Execute(null);
             }    
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -89,7 +89,7 @@
 
 	/* 9: HECICO_CSKH.dll */
 	/* uncompressed_file_size */
-	.word	1702912
+	.word	1794048
 	/* loaded */
 	.byte	0
 	/* data */
@@ -107,7 +107,7 @@
 
 	/* 11: Java.Interop.dll */
 	/* uncompressed_file_size */
-	.word	164864
+	.word	164352
 	/* loaded */
 	.byte	0
 	/* data */
@@ -125,7 +125,7 @@
 
 	/* 13: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.word	2370560
+	.word	2304000
 	/* loaded */
 	.byte	0
 	/* data */
@@ -503,7 +503,7 @@
 
 	/* 55: System.Xml.dll */
 	/* uncompressed_file_size */
-	.word	1397760
+	.word	1397248
 	/* loaded */
 	.byte	0
 	/* data */
@@ -890,7 +890,7 @@
 
 	/* 98: Xamarin.AndroidX.VectorDrawable.dll */
 	/* uncompressed_file_size */
-	.word	6656
+	.word	6144
 	/* loaded */
 	.byte	0
 	/* data */
@@ -1223,7 +1223,7 @@
 
 	/* 135: mscorlib.dll */
 	/* uncompressed_file_size */
-	.word	2217984
+	.word	2216960
 	/* loaded */
 	.byte	0
 	/* data */

@@ -49,11 +49,15 @@ namespace HECICO_CSKH.ViewModels.Search
             ListCustomer = new ObservableCollection<CustomerByTel>();
             SearchCommand = new Command(OnSearchClicked);
             LoadCommand = new Command(OnLoadExcute);
+            SelectTuThangCommand = new Command(OnTuThangClicked);
+            SelectDenThangCommand  = new Command(OnDenThangClicked);
             MessagingCenter.Subscribe<DanhSachKhachHang, CustomerByTel>(this, "chonkhachhang", (sender, item) => {
                 TEN_KHANG = item.TEN_KHANG;
                 SelectItem = item;
             });
         }
+
+        
 
         #endregion
 
@@ -88,7 +92,15 @@ namespace HECICO_CSKH.ViewModels.Search
                 HideLoading();
             }
         }
+        private async void OnDenThangClicked(object obj)
+        {
+            ToDate  = await new ChonThangNam(ToDate).Show();
+        }
 
+        private async void OnTuThangClicked(object obj)
+        {
+            FromDate = await new ChonThangNam(FromDate).Show();
+        }
         async Task TimKiem()
         {
             try
@@ -149,6 +161,8 @@ namespace HECICO_CSKH.ViewModels.Search
         #region "Command"
         public Command SearchCommand { get; }
         public Command LoadCommand { get; }
+        public Command SelectTuThangCommand { get; }
+        public Command SelectDenThangCommand { get; }
         #endregion
     }
 }

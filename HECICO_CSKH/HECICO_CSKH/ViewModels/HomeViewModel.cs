@@ -99,7 +99,7 @@ namespace HECICO_CSKH.ViewModels
         {
             try
             {
-                PhoneDialer.Open("0766299989");
+                PhoneDialer.Open("02252211309");
             }
             catch (Exception ex)
             {

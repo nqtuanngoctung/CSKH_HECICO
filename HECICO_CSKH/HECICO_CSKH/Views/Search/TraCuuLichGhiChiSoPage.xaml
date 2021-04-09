@@ -21,7 +21,7 @@
                    BorderColor="{StaticResource Primary}"                           
                    HeightRequest="60">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
-                    <Label Text="{Binding TEN_KHANG}" FontSize="18" LineBreakMode="TailTruncation" MaxLines="2" HorizontalOptions="FillAndExpand" x:Name="txtTram" Style="{StaticResource styleLableGreen }"/>
+                    <Label Text="{Binding TEN_KHANG}" FontSize="18" LineBreakMode="TailTruncation" MaxLines="2" TextTransform="Uppercase" HorizontalOptions="FillAndExpand" x:Name="txtTram" Style="{StaticResource styleLableGreen }"/>
                     <Image HorizontalOptions="EndAndExpand">
                         <Image.Source>
                             <FontImageSource FontFamily="UserIcons" Glyph="{Binding Source={x:Static helper:FontIconClass.TextSearch}}" Color="Green" Size="20"/>
@@ -95,22 +95,19 @@
                         <DataTemplate>
                             <ViewCell>
                                 <ViewCell.View>
-                                    <AbsoluteLayout Margin="0,0,0,0" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                    <AbsoluteLayout Margin="0,0,0,15" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                                                     HeightRequest="{OnIdiom Tablet=150, Phone=85}">
-                                    <Image Source="ghichuso"  HeightRequest= "{OnIdiom Tablet=150, Phone=85}" HorizontalOptions="FillAndExpand"
-                                               VerticalOptions="FillAndExpand"/>
-                                    <Label Text="{Binding NGAY_GCS}"   Style="{StaticResource styleLableWhite}" 
-                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.1,0.67,80,20', iOS='0.1,0.65,80,20'}"
+                                    <Image Source="ghichuso" Aspect="Fill"  HeightRequest= "{OnIdiom Tablet=150, Phone=85}" HorizontalOptions="StartAndExpand"
+                                               VerticalOptions="StartAndExpand" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"/>
+                                    <Label Text="{Binding NGAY_GCS ,StringFormat='{0:dd/MM/yyyy}'}"  FontSize="{OnIdiom Phone=18, Tablet=30}" FontAttributes="Bold" Style="{StaticResource styleLableWhite}" 
+                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.1,0.67', iOS='0.1,0.65'}"
                                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
-                                    <Label Text="{Binding THANG}"   Style="{StaticResource styleLableGreen}" 
-                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.48,0.73,20,20', iOS='0.47,0.73,20,20'}"
+                                    <Label Text="{Binding THANG}" FontSize="{OnIdiom Phone=18, Tablet=30}" FontAttributes="Bold" Style="{StaticResource styleLableGreen}" 
+                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.53,0.77', iOS='0.53,0.77'}"
                                            AbsoluteLayout.LayoutFlags="PositionProportional"/>
-                                    <Label Text="{Binding NAM}"   Style="{StaticResource styleLableGreen}" 
-                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.68,0.73,40,20', iOS='0.67,0.73,40,20'}"
-                                           AbsoluteLayout.LayoutFlags="PositionProportional"/>
-                                    <Label Text=""   Style="{StaticResource styleLableGreen}" 
-                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.93,0.73,40,20' , iOS='0.88,0.73,40,20' }"
-                                           AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                                    <Label Text="{Binding NAM}" FontSize="{OnIdiom Phone=18, Tablet=30}" FontAttributes="Bold"  Style="{StaticResource styleLableGreen}" 
+                                           AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.77,0.77', iOS='0.77,0.77'}"
+                                           AbsoluteLayout.LayoutFlags="PositionProportional"/>                                       
                                 </AbsoluteLayout>
                                 </ViewCell.View>
                             </ViewCell>
