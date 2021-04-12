@@ -29,7 +29,7 @@
             <Image HorizontalOptions="CenterAndExpand" Source="logo" Aspect="AspectFit" WidthRequest="100" HeightRequest="100" />
             <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                 <Label Text="Ứng dụng:" Style="{StaticResource styleLableGreen}" FontSize="17"></Label>
-                <Label Text="HECICO CSKH" Style="{StaticResource styleLable}"  FontSize="17"></Label>
+                <Label Text="CSKH" Style="{StaticResource styleLable}"  FontSize="17"></Label>
             </StackLayout>
             <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal"  >
                 <Label Text="Hệ điều hành:" Style="{StaticResource styleLableGreen}"  FontSize="17"></Label>

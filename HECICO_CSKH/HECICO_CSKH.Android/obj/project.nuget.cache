@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nXnuFLnpvpAfziXMYtMLpWkuSH8038i6GHY1OmXGC94FRxgW3sOCvxh8oszJIucukGbX2hdz5F3himnrw4hL+g==",
+  "dgSpecHash": "enS05DHqLsD+ChB21f+iv1sJ85mE7vGqYONNRgbMcaaZ/bei3E5Pv/tG9BbZR2IyLpCrq+j1AlyWWoeNFn4geA==",
   "success": true,
   "projectFilePath": "E:\\TUAN_SOURCE\\BUILD APP CENTER\\CSKH_HECICO\\HECICO_CSKH\\HECICO_CSKH.Android\\HECICO_CSKH.Android.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.core\\18.2.0.55\\syncfusion.xamarin.core.18.2.0.55.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\18.2.0.55\\syncfusion.xamarin.gridcommon.18.2.0.55.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.sfbadgeview\\18.2.0.55\\syncfusion.xamarin.sfbadgeview.18.2.0.55.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.sfchart\\18.2.0.55\\syncfusion.xamarin.sfchart.18.2.0.55.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\18.2.0.55\\syncfusion.xamarin.sfcombobox.18.2.0.55.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.sfdatagrid\\18.2.0.55\\syncfusion.xamarin.sfdatagrid.18.2.0.55.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\syncfusion.xamarin.sfnumerictextbox\\18.2.0.55\\syncfusion.xamarin.sfnumerictextbox.18.2.0.55.nupkg.sha512",

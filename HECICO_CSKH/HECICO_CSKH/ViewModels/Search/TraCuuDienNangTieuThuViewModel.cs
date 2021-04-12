@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using HECICO_CSKH.Models;
 using System.Net.Http;
 using HECICO_CSKH.Dialog;
+using HECICO_CSKH.Views.Search;
 
 namespace HECICO_CSKH.ViewModels.Search
 {
@@ -51,6 +52,7 @@ namespace HECICO_CSKH.ViewModels.Search
             LoadCommand = new Command(OnLoadExcute);
             SelectTuThangCommand = new Command(OnTuThangClicked);
             SelectDenThangCommand = new Command(OnDenThangClicked);
+            BieuDoCommand = new Command(OnBieuDoClick);
             MessagingCenter.Subscribe<DanhSachKhachHang, CustomerByTel>(this, "chonkhachhang", (sender, item) => {
                 TEN_KHANG = item.TEN_KHANG;
                 SelectItem = item;               
@@ -60,9 +62,18 @@ namespace HECICO_CSKH.ViewModels.Search
 
 
 
+
         #endregion
 
         #region "Method"
+        private async void OnBieuDoClick(object obj)
+        {
+            if (Device.RuntimePlatform==DevicePlatform.iOS.ToString())
+            await Navigation.PushAsync(new BieuDoDienNangTieuThu(ListTraCuu));
+            else
+                await Navigation.PushModalAsync(new BieuDoDienNangTieuThu(ListTraCuu));
+        }
+
         private async void OnSearchClicked(object obj)
         {
             await TimKiem();
@@ -170,6 +181,7 @@ namespace HECICO_CSKH.ViewModels.Search
 
         #region "Command"
         public Command SearchCommand { get; }
+        public Command BieuDoCommand { get; } 
         public Command LoadCommand { get; }
         public Command SelectTuThangCommand { get; }
         public Command SelectDenThangCommand { get; }

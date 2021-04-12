@@ -32,6 +32,7 @@
     <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.2" />
     <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="18.2.0.55" />
     <PackageReference Include="Syncfusion.Xamarin.SfBadgeView" Version="18.2.0.55" />
+    <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="18.2.0.55" />
     <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="18.2.0.55" />
     <PackageReference Include="Syncfusion.Xamarin.SfDataGrid" Version="18.2.0.55" />
     <PackageReference Include="Xam.Plugin.Connectivity" Version="3.2.0" />
@@ -102,6 +103,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SearchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Search\BieuDoDienNangTieuThu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Search\TraCuuDiemThuTienDienPage.xaml">

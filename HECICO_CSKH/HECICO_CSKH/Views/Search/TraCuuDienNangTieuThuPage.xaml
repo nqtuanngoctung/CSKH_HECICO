@@ -6,12 +6,13 @@
              xmlns:sfinputtext="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              xmlns:sfbutton="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:helper="clr-namespace:HECICO_CSKH.Helper" 
-             xmlns:syncTheme="clr-namespace:Syncfusion.XForms.Themes;assembly=Syncfusion.Core.XForms"
+             xmlns:syncTheme="clr-namespace:Syncfusion.XForms.Themes;assembly=Syncfusion.Core.XForms" xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             xmlns:bieudo="clr-namespace:HECICO_CSKH.Views.Search"
              Title="ĐIỆN NĂNG TIÊU THỤ"
              Shell.TabBarIsVisible="False"          
              BackgroundColor="White"
              x:Class="HECICO_CSKH.Views.Search.TraCuuDienNangTieuThuPage">
- 
+   
     <Grid>
         <StackLayout Margin="10">
             <Label Text="Vui lòng chọn mã khách hàng" Style="{StaticResource styleLableGreen}" FontSize="14"/>
@@ -19,7 +20,7 @@
                        BackgroundColor="White"
                        CornerRadius="10" 
                    BorderColor="{StaticResource Primary}"
-                   HeightRequest="60">
+                   HeightRequest="50">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
                     <Label Text="{Binding TEN_KHANG}" LineBreakMode="TailTruncation" MaxLines="2" TextTransform="Uppercase" FontSize="18" HorizontalOptions="FillAndExpand" x:Name="txtTram" Style="{StaticResource styleLableGreen }"/>
                     <Image HorizontalOptions="EndAndExpand">
@@ -34,47 +35,7 @@
             </Frame>
          
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10">
-                <!--<sfinputtext:SfTextInputLayout Hint="Từ ngày"  
-                                               IsHintAlwaysFloated="True"
-                                               LeadingViewPosition="Inside"
-                                               HeightRequest="50"            
-                                               HorizontalOptions="FillAndExpand"
-                                               ContainerType="Outlined">
-                    <DatePicker Date="{Binding FromDate  , Mode=TwoWay }" 
-                            Style="{StaticResource styleDatePicker}"
-                                WidthRequest="100"
-                                
-                            HorizontalOptions="FillAndExpand"/>
-                    <sfinputtext:SfTextInputLayout.LeadingView>
-                        <Image>
-                            <Image.Source>
-                                <FontImageSource FontFamily="UserIcons" Glyph="{Binding Source={x:Static helper:FontIconClass.Calendar}}" Color="{StaticResource Primary}"
-                                                 Size="25"/>
-                            </Image.Source>
-                        </Image>
-                    </sfinputtext:SfTextInputLayout.LeadingView>
-
-                </sfinputtext:SfTextInputLayout>
-                <sfinputtext:SfTextInputLayout Hint="Đến ngày" 
-                                               IsHintAlwaysFloated="True"
-                                               LeadingViewPosition="Inside"
-                                               HeightRequest="50"
-                                               HorizontalOptions="FillAndExpand"                                                
-                                               ContainerType="Outlined">
-                    <DatePicker Date="{Binding ToDate , Mode=TwoWay}"   
-                            Style="{StaticResource styleDatePicker}"
-                                WidthRequest="100"
-                            HorizontalOptions="FillAndExpand" />
-                    <sfinputtext:SfTextInputLayout.LeadingView>
-                        <Image>
-                            <Image.Source>
-                                <FontImageSource FontFamily="UserIcons" Glyph="{Binding Source={x:Static helper:FontIconClass.Calendar}}" Color="{StaticResource Primary}"
-                                                 Size="25"/>
-                            </Image.Source>
-                        </Image>
-                    </sfinputtext:SfTextInputLayout.LeadingView>
-                </sfinputtext:SfTextInputLayout>-->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10">                
                 <Grid RowDefinitions="auto" Margin="0,10,0,0">
                     <Frame Padding="12"
                            CornerRadius="5"
@@ -142,7 +103,7 @@
                                FontSize="Medium"
                                 >
                 </sfbutton:SfButton>
-                <sfbutton:SfButton Text="Biểu đồ so sánh" Command="{Binding SearchCommand}" CornerRadius="10"       
+                <sfbutton:SfButton Text="Biểu đồ so sánh" Command="{Binding BieuDoCommand}" CornerRadius="10"       
                                 
                                 VerticalOptions="CenterAndExpand" 
                                 HorizontalOptions="FillAndExpand"

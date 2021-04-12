@@ -157,6 +157,8 @@ public class MonoPackageManager_Resources {
 		"ZXingNetMobile.dll",
 		"HECICO_CSKH.Android.dll",
 		"HECICO_CSKH.dll",
+		"Syncfusion.SfChart.XForms.Android.dll",
+		"Syncfusion.SfChart.XForms.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

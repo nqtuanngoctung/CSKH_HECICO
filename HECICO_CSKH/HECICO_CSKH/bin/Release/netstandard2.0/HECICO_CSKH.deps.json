@@ -20,6 +20,7 @@
           "SkiaSharp.Views.Forms": "2.80.2",
           "Syncfusion.Xamarin.Buttons": "18.2.0.55",
           "Syncfusion.Xamarin.SfBadgeView": "18.2.0.55",
+          "Syncfusion.Xamarin.SfChart": "18.2.0.55",
           "Syncfusion.Xamarin.SfComboBox": "18.2.0.55",
           "Syncfusion.Xamarin.SfDataGrid": "18.2.0.55",
           "Xam.Plugin.Connectivity": "3.2.0",
@@ -263,6 +264,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Syncfusion.SfBadgeView.XForms.dll": {
+            "assemblyVersion": "18.2451.0.55",
+            "fileVersion": "18.2451.0.55"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfChart/18.2.0.55": {
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.55",
+          "Xamarin.Forms": "5.0.0.2012"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {
             "assemblyVersion": "18.2451.0.55",
             "fileVersion": "18.2451.0.55"
           }
@@ -1137,6 +1150,13 @@
       "sha512": "sha512-p02JP8ryKCyHH5KFaXcc+xepBKn+B4fZCKsyvwkmfSzPNt0FtuL/IhG4hAicNKNOwv8qLfkObECbe7VwyECvdw==",
       "path": "syncfusion.xamarin.sfbadgeview/18.2.0.55",
       "hashPath": "syncfusion.xamarin.sfbadgeview.18.2.0.55.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfChart/18.2.0.55": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORXZpE1bNMqw0oewv9u/qnqHZn4CkLQIciQVc+BRxbD0xz116Ho6NveFgcAFCCFox2ALTD5tSWGRy/1/urA8Zg==",
+      "path": "syncfusion.xamarin.sfchart/18.2.0.55",
+      "hashPath": "syncfusion.xamarin.sfchart.18.2.0.55.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfComboBox/18.2.0.55": {
       "type": "package",

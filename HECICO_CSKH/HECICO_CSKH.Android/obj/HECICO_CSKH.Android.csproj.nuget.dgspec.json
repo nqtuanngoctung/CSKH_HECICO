@@ -86,6 +86,10 @@
               "target": "Package",
               "version": "[18.2.0.55, )"
             },
+            "Syncfusion.Xamarin.SfChart": {
+              "target": "Package",
+              "version": "[18.2.0.55, )"
+            },
             "Syncfusion.Xamarin.SfComboBox": {
               "target": "Package",
               "version": "[18.2.0.55, )"
@@ -307,6 +311,10 @@
               "version": "[18.2.0.55, )"
             },
             "Syncfusion.Xamarin.SfBadgeView": {
+              "target": "Package",
+              "version": "[18.2.0.55, )"
+            },
+            "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
               "version": "[18.2.0.55, )"
             },

@@ -42,6 +42,7 @@ namespace HECICO_CSKH.iOS
             SfTextInputLayoutRenderer.Init();
             SfGradientViewRenderer.Init();
             CarouselViewRenderer.Init();
+            Syncfusion.SfChart.XForms.iOS.Renderers.SfChartRenderer.Init();
             Syncfusion.XForms.iOS.BadgeView.SfBadgeViewRenderer.Init();
            
             LoadApplication(new App());

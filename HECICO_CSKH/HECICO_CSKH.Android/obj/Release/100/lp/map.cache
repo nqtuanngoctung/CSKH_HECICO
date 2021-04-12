@@ -18,6 +18,7 @@ StatusBarCompatBinding
 Syncfusion.Buttons.XForms.Android
 Syncfusion.Core.XForms.Android
 Syncfusion.SfBadgeView.XForms.Android
+Syncfusion.SfChart.XForms.Android
 Syncfusion.SfComboBox.XForms.Android
 Syncfusion.SfDataGrid.XForms.Android
 Syncfusion.SfNumericTextBox.Android

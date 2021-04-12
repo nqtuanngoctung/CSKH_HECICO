@@ -301,6 +301,19 @@
           "lib/netstandard2.0/Syncfusion.SfBadgeView.XForms.dll": {}
         }
       },
+      "Syncfusion.Xamarin.SfChart/18.2.0.55": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "18.2.0.55",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll": {}
+        }
+      },
       "Syncfusion.Xamarin.SfComboBox/18.2.0.55": {
         "type": "package",
         "dependencies": {
@@ -1830,6 +1843,33 @@
         "lib/uap10.0/Syncfusion.SfBadgeView.XForms.xml",
         "syncfusion.xamarin.sfbadgeview.18.2.0.55.nupkg.sha512",
         "syncfusion.xamarin.sfbadgeview.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfChart/18.2.0.55": {
+      "sha512": "ORXZpE1bNMqw0oewv9u/qnqHZn4CkLQIciQVc+BRxbD0xz116Ho6NveFgcAFCCFox2ALTD5tSWGRy/1/urA8Zg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfchart/18.2.0.55",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfChart.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfChart.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfChart.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.SfChart.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.SfChart.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfChart.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfChart.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfChart.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfChart.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfChart.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfChart.XForms.xml",
+        "syncfusion.xamarin.sfchart.18.2.0.55.nupkg.sha512",
+        "syncfusion.xamarin.sfchart.nuspec"
       ]
     },
     "Syncfusion.Xamarin.SfComboBox/18.2.0.55": {
@@ -5065,6 +5105,7 @@
       "SkiaSharp.Views.Forms >= 2.80.2",
       "Syncfusion.Xamarin.Buttons >= 18.2.0.55",
       "Syncfusion.Xamarin.SfBadgeView >= 18.2.0.55",
+      "Syncfusion.Xamarin.SfChart >= 18.2.0.55",
       "Syncfusion.Xamarin.SfComboBox >= 18.2.0.55",
       "Syncfusion.Xamarin.SfDataGrid >= 18.2.0.55",
       "Xam.Plugin.Connectivity >= 3.2.0",
@@ -5161,6 +5202,10 @@
             "version": "[18.2.0.55, )"
           },
           "Syncfusion.Xamarin.SfBadgeView": {
+            "target": "Package",
+            "version": "[18.2.0.55, )"
+          },
+          "Syncfusion.Xamarin.SfChart": {
             "target": "Package",
             "version": "[18.2.0.55, )"
           },
