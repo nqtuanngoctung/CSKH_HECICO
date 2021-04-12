@@ -9,7 +9,7 @@
              xmlns:vm="clr-namespace:HECICO_CSKH.ViewModels" xmlns:sfcombobx="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms">
 
     <AbsoluteLayout>
-        <Grid VerticalOptions="FillAndExpand" RowDefinitions="auto,auto,*" >
+        <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1" RowDefinitions="auto,auto,*" >
             <cv:CarouselViewControl  x:Name="viewImage" Position="1" ShowIndicators="True" IndicatorsShape="Circle" IndicatorsTintColor="LightGray" 
                                 CurrentPageIndicatorTintColor="Red" Orientation="Horizontal" InterPageSpacing="10" 
                                  

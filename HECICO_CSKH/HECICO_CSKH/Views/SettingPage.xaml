@@ -6,8 +6,8 @@
              xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
              BackgroundColor="White"
              x:Class="HECICO_CSKH.Views.SettingPage">
-    <Grid>
-        <Grid RowDefinitions="auto,auto,*">
+    <AbsoluteLayout>
+        <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1" RowDefinitions="auto,auto,*">
             <AbsoluteLayout  HeightRequest= "{OnIdiom Tablet=300, Phone=150}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                 <Image Source="caidat" HeightRequest= "{OnIdiom Tablet=300, Phone=150}"
                        Aspect="AspectFill"  AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"                       
@@ -36,7 +36,7 @@
                     </Image>
                     <Label Text="Thông tin ứng dụng" Style="{StaticResource styleLableGreen}" FontSize="20"/>
                     <StackLayout.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding InformationCommand}">                             
+                        <TapGestureRecognizer Command="{Binding InformationCommand}">
                         </TapGestureRecognizer>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
@@ -55,8 +55,15 @@
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
             </StackLayout>
-           
-
         </Grid>
-    </Grid>
+        <Image  Source="callcskh" Grid.Row="2" Aspect="AspectFit" BackgroundColor="Transparent" WidthRequest="{OnIdiom Phone=70 , Tablet=140}"  HeightRequest="{OnIdiom Phone=70 , Tablet=140}"
+               Margin="{OnPlatform Android='0,0,5,5' , iOS='0,0,5,50' } "
+               AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="1,1"
+               >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CallMeCommand}"/>
+            </Image.GestureRecognizers>
+        </Image>
+    </AbsoluteLayout>
+       
 </ContentPage>

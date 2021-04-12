@@ -109,7 +109,7 @@
 
 	/* 9: HECICO_CSKH.dll */
 	/* uncompressed_file_size */
-	.long	1802752
+	.long	1806848
 	/* loaded */
 	.byte	0
 	/* data */

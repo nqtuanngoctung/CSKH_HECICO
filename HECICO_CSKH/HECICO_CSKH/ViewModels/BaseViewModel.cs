@@ -24,14 +24,28 @@ namespace HECICO_CSKH.ViewModels
         public BaseViewModel ()
         {
             SelectKhachHangCommand = new Command(OnSelectKhachHangClicked);
+            CallMeCommand = new Command(CallMeExcute);
         }
         private async void OnSelectKhachHangClicked(object obj)
         {
             await Navigation.PushModalAsync(new DanhSachKhachHang(LoadCustomerByTel()));
         }
+        private void CallMeExcute(object obj)
+        {
+            try
+            {
+                PhoneDialer.Open("02252211309");
+            }
+            catch (Exception ex)
+            {
+                ShortAlert(ex.Message);
+
+            }
+        }
         public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
         public INavigation Navigation;
         public Command SelectKhachHangCommand { get; }
+        public Command CallMeCommand { get; }
         bool isBusy = false;
         public bool IsBusy
         {

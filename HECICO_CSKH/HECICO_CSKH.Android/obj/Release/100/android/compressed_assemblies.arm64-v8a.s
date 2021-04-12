@@ -89,7 +89,7 @@
 
 	/* 9: HECICO_CSKH.dll */
 	/* uncompressed_file_size */
-	.word	1802752
+	.word	1806848
 	/* loaded */
 	.byte	0
 	/* data */

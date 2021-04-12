@@ -40,7 +40,7 @@ namespace HECICO_CSKH.ViewModels
             ListCustomer = new ObservableCollection<CustomerModel>();
             ListCustomerByTel = new ObservableCollection<CustomerByTel>();
             LoadCommand = new Command(LoadExcute);
-            CallMeCommand = new Command(CallMeExcute);
+           
             OpenWebCommand =  new Command(async () => await new Barcode(_selectItem.MA_KHANG ).Show());
            // SelectKhachHangCommand = new Command(OnSelectKhachHangClicked);
             MessagingCenter.Subscribe<DanhSachKhachHang, CustomerByTel>(this, "chonkhachhang", (sender, item) => {
@@ -95,18 +95,7 @@ namespace HECICO_CSKH.ViewModels
                 HideLoading();
             }
         }
-        private void CallMeExcute(object obj)
-        {
-            try
-            {
-                PhoneDialer.Open("02252211309");
-            }
-            catch (Exception ex)
-            {
-                ShortAlert(ex.Message);
-               
-            }
-        }
+     
         
         async Task TimKiem()
         {
@@ -155,7 +144,7 @@ namespace HECICO_CSKH.ViewModels
 
         #region "Command"
         public Command LoadCommand { get; }
-        public Command CallMeCommand { get; }
+       
         public Command OpenWebCommand { get; }
         
         #endregion
