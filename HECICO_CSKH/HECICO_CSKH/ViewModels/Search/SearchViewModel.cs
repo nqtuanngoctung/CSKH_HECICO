@@ -32,7 +32,31 @@ namespace HECICO_CSKH.ViewModels.Search
             TraCuuHoaDonDienTuCommand = new Command(OnTraCuuHoaDonDienTuClick);
             TraCuuLichTamNgugnCapDienCommand = new Command(OnTraCuuLichTamNgugnCapDienClicked);
             TraCuuThongTinThanhToanCommand = new Command(OnTraCuuThongTinThanhToanClicked);
-            OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://hecico.com.vn/"));
+            OpenWebCommand = new Command(async () =>
+            {
+                using (HttpClient client = new HttpClient ())
+                {
+                    try
+                    {
+                        client.BaseAddress = new Uri(Config.Url);
+
+                        string _json = client.GetStringAsync("api/getlinkcskh").Result;
+                        _json = _json.Replace("\\r\\n", "").Replace("\\", "");
+                        if (_json.Contains("error") == false && _json.Contains("[]") == false)
+                        {           
+                            await Browser.OpenAsync(_json.Replace("\"", ""));
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+
+                       
+                    }
+                    
+                }    
+               
+            });
+            
         }
 
 
