@@ -38,8 +38,6 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>HECICO_CSKH</string>
-	<key>XSAppIconAssets</key>
-	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
@@ -80,5 +78,7 @@
 		<string>en</string>
 		<string>ar</string>
 	</array>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcons.appiconset</string>
 </dict>
 </plist>
