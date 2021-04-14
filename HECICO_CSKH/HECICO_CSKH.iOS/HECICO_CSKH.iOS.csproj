@@ -105,61 +105,61 @@
     <BundleResource Include="Resources\xamarin_logo.png" />
     <BundleResource Include="Resources\xamarin_logo%402x.png" />
     <BundleResource Include="Resources\xamarin_logo%403x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\1024.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon120.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon1201.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-20@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon156.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-20@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon167.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-20@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon180.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-29.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon20.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-29@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon29.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-29@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon40.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-29@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon401.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-40.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon402.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-40@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon58.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-40@2x1.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon581.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-40@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon60.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-60@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon76.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-60@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon80.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-76.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon801.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-76@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\icon87.png">
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Icon-83.5@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\iTunesArtwork-1024.png">
       <Visible>false</Visible>
     </ImageAsset>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
