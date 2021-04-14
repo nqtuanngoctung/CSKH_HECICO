@@ -34,9 +34,10 @@
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="10,0,10,10">
 
-                <Grid RowDefinitions="auto" Margin="0,10,0,0">
+                <Grid RowDefinitions="auto" Margin="0,10,0,0" BackgroundColor="White">
                     <Frame Padding="12"
                            CornerRadius="5"
+                           BackgroundColor="White"
                     BorderColor="{StaticResource Primary}"
                     HasShadow="False">
                         <StackLayout Orientation="Horizontal">
@@ -61,9 +62,10 @@
                 VerticalOptions="Start"
                 Margin="40,-10,0,0"/>
                 </Grid>
-                <Grid RowDefinitions="auto" Margin="0,10,0,0">
+                <Grid RowDefinitions="auto" Margin="0,10,0,0" BackgroundColor="White">
                     <Frame Padding="12"
                            CornerRadius="5"
+                           BackgroundColor="White"
                     BorderColor="{StaticResource Primary}"
                     HasShadow="False">
                         <StackLayout Orientation="Horizontal">

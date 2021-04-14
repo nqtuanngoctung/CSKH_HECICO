@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
-             xmlns:local="clr-namespace:HECICO_CSKH.ViewModels.Search"
+             xmlns:local="clr-namespace:HECICO_CSKH.ViewModels.Search"              
              x:Class="HECICO_CSKH.Views.Search.BieuDoDienNangTieuThu">
    
-    <Grid>
+    <Grid BackgroundColor="White" >
         <chart:SfChart VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <chart:SfChart.Title>
                 <chart:ChartTitle Text="BIỂU ĐỒ TIÊU THỤ" FontAttributes="Bold" TextColor="{StaticResource Primary}" FontSize="20"/>
