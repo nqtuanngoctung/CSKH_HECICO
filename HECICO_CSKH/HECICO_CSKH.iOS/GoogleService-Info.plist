@@ -12,23 +12,13 @@
 	<string>194038114298</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
-	<key>BUNDLE_ID</key>
-	<string>com.emec.hecico-cskh</string>
-	<key>PROJECT_ID</key>
-	<string>cskh-hecico</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
 	<key>STORAGE_BUCKET</key>
 	<string>cskh-hecico.appspot.com</string>
-	<key>IS_ADS_ENABLED</key>
-	<false></false>
-	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
-	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
-	<key>IS_GCM_ENABLED</key>
-	<true></true>
-	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:194038114298:ios:f8ec346482ce65cf072643</string>
+	<key>PROJECT_ID</key>
+	<string>cskh-hecico</string>
+	<key>BUNDLE_ID</key>
+	<string>com.emec.hecico-cskh</string>
 </dict>
 </plist>

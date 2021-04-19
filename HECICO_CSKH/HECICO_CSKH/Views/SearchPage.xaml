@@ -122,7 +122,7 @@
 
         </Grid>
         <Image  Source="callcskh" Grid.Row="2" Aspect="AspectFit" BackgroundColor="Transparent" WidthRequest="{OnIdiom Phone=70 , Tablet=140}"  HeightRequest="{OnIdiom Phone=70 , Tablet=140}"
-               Margin="{OnPlatform Android='0,0,5,5' , iOS='0,0,5,75' } "
+               Margin="{OnPlatform Android='0,0,5,5' , iOS='0,0,5,80' } "
                AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="1,1"
                >
             <Image.GestureRecognizers>
