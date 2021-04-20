@@ -19,5 +19,19 @@ namespace HECICO_CSKH.Views
             InitializeComponent();
             BindingContext = viewModel = new SettingViewModel();
         }
+        protected override bool OnBackButtonPressed()
+        {
+            base.OnBackButtonPressed();
+            BackButtonPressed();
+            return true;
+        }
+        public async Task BackButtonPressed()
+        {
+            var ok = await DisplayAlert("Thông báo", "Bạn có muốn thoát chương trình không?", "ok", "cancle");
+            if (ok)
+            {
+                System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
+            }
+        }
     }
 }
