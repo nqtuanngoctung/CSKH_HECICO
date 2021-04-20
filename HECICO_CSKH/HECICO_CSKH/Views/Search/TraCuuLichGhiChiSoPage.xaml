@@ -97,7 +97,7 @@
                                 <ViewCell.View>
                                     <AbsoluteLayout Margin="0,0,0,15" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                                                     HeightRequest="{OnIdiom Tablet=150, Phone=85}">
-                                    <Image Source="ghichuso" Aspect="Fill"  HeightRequest= "{OnIdiom Tablet=150, Phone=85}" HorizontalOptions="StartAndExpand"
+                                    <Image Source="ghichuso" Aspect="Fill"  HeightRequest= "{OnIdiom Tablet=150, Phone=85}" HorizontalOptions="FillAndExpand"
                                                VerticalOptions="StartAndExpand" AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="1,1,1,1"/>
                                     <Label Text="{Binding NGAY_GCS ,StringFormat='{0:dd/MM/yyyy}'}"  FontSize="{OnIdiom Phone=18, Tablet=30}" FontAttributes="Bold" Style="{StaticResource styleLableWhite}" 
                                            AbsoluteLayout.LayoutBounds="{OnPlatform Android='0.1,0.67', iOS='0.1,0.65'}"
