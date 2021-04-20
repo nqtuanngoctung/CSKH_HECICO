@@ -46,8 +46,7 @@ namespace HECICO_CSKH.iOS
             Syncfusion.XForms.iOS.BadgeView.SfBadgeViewRenderer.Init();
            
             LoadApplication(new App());
-            //FirebasePushNotificationManager.Initialize(options, true);
-            Firebase.Core.App.Configure();
+            //FirebasePushNotificationManager.Initialize(options, true);            
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             RequestPushPermissionsAsync();
             _launchoptions = options;
