@@ -6,7 +6,7 @@
        BackgroundColor="White"
        xmlns:helper="clr-namespace:HECICO_CSKH.Helper"
         xmlns:svg="clr-namespace:HECICO_CSKH.Controls" xmlns:badge="clr-namespace:Syncfusion.XForms.BadgeView;assembly=Syncfusion.SfBadgeView.XForms"
-       NavigationPage.HasNavigationBar="True"
+       NavigationPage.HasNavigationBar="False"
        x:Class="HECICO_CSKH.AppShell">
 
     <!--

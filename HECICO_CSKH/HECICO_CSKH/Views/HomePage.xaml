@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HECICO_CSKH.Views.HomePage"                
+             x:Class="HECICO_CSKH.Views.HomePage"         
              xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"   
-              xmlns:helper="clr-namespace:HECICO_CSKH.Helper"
-             Shell.NavBarIsVisible="False"               
-             BackgroundColor="White"
+              xmlns:helper="clr-namespace:HECICO_CSKH.Helper"                   
+              BackgroundColor="White"
+              Shell.NavBarIsVisible="False"
              xmlns:vm="clr-namespace:HECICO_CSKH.ViewModels" xmlns:sfcombobx="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms">
 
     <AbsoluteLayout>

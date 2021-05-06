@@ -111,7 +111,7 @@ namespace HECICO_CSKH.ViewModels
                 catch (Exception ex)
                 {
                     HideLoading();
-                    await new MessageBox("Thông tin đăng nhập không chính xác").Show();
+                    await new MessageBox(ex.Message ).Show();
                     return;
                 }
             }

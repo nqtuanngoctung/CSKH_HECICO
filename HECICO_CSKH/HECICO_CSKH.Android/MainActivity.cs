@@ -41,12 +41,23 @@ namespace HECICO_CSKH.Droid
          
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             // global::Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
-            //if (Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
+            //if (Build.VERSION.SdkInt >= BuildVersionCodes.Kitkat)
             //{
-            //    //Window.AddFlags(WindowManagerFlags.LayoutNoLimits);
-            //    Window.AddFlags(WindowManagerFlags.LayoutInScreen);
-            //    Window.DecorView.SetFitsSystemWindows(true);
+            //    // for covering the full screen in android..
+            //   // Window.SetFlags(WindowManagerFlags.LayoutNoLimits, WindowManagerFlags.LayoutNoLimits);
+
+            //    // clear FLAG_TRANSLUCENT_STATUS flag:
+            //    Window.ClearFlags(WindowManagerFlags.TranslucentStatus);
+
+            //    // add FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS flag to the window
+            //    Window.AddFlags(WindowManagerFlags.DrawsSystemBarBackgrounds);
+
+            //    Window.DecorView.SystemUiVisibility = 0;
+
+            //    Window.SetStatusBarColor(Android.Graphics.Color.Transparent);
+
             //}
             //StatusBarCompat.TranslucentStatusBar(CrossCurrentActivity.Current.Activity);
 
@@ -58,7 +69,7 @@ namespace HECICO_CSKH.Droid
            
             //FirebasePushNotificationManager.ProcessIntent(this, Intent);
         }
-
+        
         protected override void OnNewIntent(Intent intent)
         {
             base.OnNewIntent(intent);

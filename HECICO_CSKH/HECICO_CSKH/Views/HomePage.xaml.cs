@@ -19,7 +19,7 @@ namespace HECICO_CSKH.Views
         int position = 0;
         public HomePage()
         {
-            InitializeComponent();
+            InitializeComponent();            
             //DependencyService.Get<IStatusBar>().translucentStatusBar();
             NavigationPage.SetHasNavigationBar(this, false);
             viewModel = new HomeViewModel();

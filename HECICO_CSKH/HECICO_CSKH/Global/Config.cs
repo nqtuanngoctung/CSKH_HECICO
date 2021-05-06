@@ -11,7 +11,7 @@ namespace HECICO_CSKH.Global
         public static string MaKhachHang = "MaKhachHang";
         public static string Token = "Token";
         public static string URL = "URL";
-        public static string Url = "http://smart.cpc.vn/CSKH_HECICO_WEB_API/";
+        public static string Url = "http://113.160.99.99:82/";//"http://smart.cpc.vn/CSKH_HECICO_WEB_API/";
         public static HttpClient client;
         private static string Chu(string gNumber)
         {
