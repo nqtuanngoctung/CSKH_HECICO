@@ -52,16 +52,18 @@
     <DefineConstants>DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchArch>
+    </MtouchArch>
     <CodesignKey>Apple Development: NGUYEN T THAI NGOC (SQ944M7T32)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchInterpreter>-all</MtouchInterpreter>
+    <MtouchInterpreter>
+    </MtouchInterpreter>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
     <BuildIpa>true</BuildIpa>
-    <MtouchFloat32>false</MtouchFloat32>
+    <MtouchFloat32>true</MtouchFloat32>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
